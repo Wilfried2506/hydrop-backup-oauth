@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Hydrop Backup ist eine private Anwendung zur Sicherung von Hydrop-Verwaltungsdaten in Google Drive.">
+<meta name="robots" content="index,follow">
+<title>Hydrop Backup – Sicherung von Hydrop-Daten</title>
+<link rel="canonical" href="https://backup.heim-caballero.com/">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="/"><span class="drop" aria-hidden="true">◆</span>Hydrop Backup</a><nav aria-label="Hauptnavigation"><a href="/" aria-current="page">Übersicht</a><a href="/datenschutz.html">Datenschutz</a></nav></div></header>
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Private Backup-Anwendung · Google Drive</p>
+    <h1>Datensicherung für Hydrop Central</h1>
+    <p class="lead">Hydrop Backup dient dazu, wichtige Daten aus der Hydrop-Verwaltung und dem Messwertarchiv regelmäßig in einem eigenen Google-Drive-Konto zu sichern. Die Anwendung ist für die interne Nutzung durch ihren Betreiber bestimmt und kein öffentlich buchbarer Speicherdienst.</p>
+  </section>
+  <div class="grid" aria-label="Funktionsweise">
+    <section class="card"><h2>1. Sicherung erstellen</h2><p>Verwaltungsdaten, zugehörige Medien und das Messwertarchiv sollen in konsistenten Sicherungsständen zusammengefasst werden.</p></section>
+    <section class="card"><h2>2. Daten verschlüsseln</h2><p>Vor der Übertragung zu Google Drive ist eine Verschlüsselung der Backup-Dateien und ihrer Namen mit rclone vorgesehen.</p></section>
+    <section class="card"><h2>3. Privat speichern</h2><p>Die Sicherungen werden nur im vom Betreiber autorisierten Google-Drive-Konto verwaltet. Sie sind nicht öffentlich zugänglich.</p></section>
+  </div>
+  <section class="card section wide">
+    <h2>Wofür wird die Google-Drive-Berechtigung benötigt?</h2>
+    <p>Hydrop Backup verwendet die Google Drive API, um eigens erzeugte Sicherungsdateien hochzuladen, aufzulisten, zu verwalten und bei Bedarf wiederherzustellen. Vorgesehen ist der eingeschränkte OAuth-Berechtigungsbereich <code>drive.file</code>. Damit kann die Anwendung nur die Dateien und Ordner bearbeiten, die sie selbst erstellt oder für die sie ausdrücklich autorisiert wurde.</p>
+    <p>Die Berechtigung wird ausschließlich für die Datensicherung verwendet – nicht für Werbung, Profilbildung oder den Verkauf von Google-Nutzerdaten.</p>
+    <p><a href="/datenschutz.html">Weitere Informationen zur Datenverarbeitung und zum Widerruf des Zugriffs</a></p>
+  </section>
+  <section class="card section wide">
+    <h2>Status und Kontakt</h2>
+    <p>Die Google-Drive-Anbindung und die automatische verschlüsselte Sicherung befinden sich derzeit in Einrichtung. Diese Informationsseite stellt selbst keine Verbindung zu Google Drive her und fragt keine Zugangsdaten ab.</p>
+    <p>Kontakt: <a href="mailto:wilfried@heim-caballero.com">wilfried@heim-caballero.com</a></p>
+  </section>
+</main>
+<footer><div class="wrap"><span>© 2026 Hydrop Backup · Private Backup-Anwendung</span><span><a href="/">Übersicht</a><a href="/datenschutz.html">Datenschutzhinweise</a></span></div></footer>
+</body></html>
